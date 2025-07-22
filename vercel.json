@@ -7,6 +7,7 @@
     }
   ],
   "routes": [
-    { "src": "/api/.*", "dest": "api/index.py" }
+    { "src": "/api/.*", "dest": "api/index.py" },
+    { "src": "/live/(.*).m3u8", "dest": "api/index.py" }
   ]
 }
